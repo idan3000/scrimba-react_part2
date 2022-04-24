@@ -16,13 +16,13 @@ const Cards = (props) => (
   </div>
 );
 
-// const App = () => (
-//   <React.Fragment>
-//     <NavBar />
-//     <Hero />
-//     <Cards data={data} />
-//   </React.Fragment>
-// );
+const App = () => (
+  <React.Fragment>
+    <NavBar />
+    <Hero />
+    <Cards data={data} />
+  </React.Fragment>
+);
 
 //////////////////////////////////////////////////////
 // function App() {
@@ -34,17 +34,17 @@ const Cards = (props) => (
 // }
 //////////////////////////////////////////////////////
 
-const JokesElment = (props) =>
-  props.jokesData.map((jokk, i) => (
-    <Jokes key={i} setup={jokk.setup} punchline={jokk.punchline} />
-  ));
+// const JokesElment = (props) =>
+//   props.jokesData.map((jokk, i) => (
+//     <Jokes key={i} setup={jokk.setup} punchline={jokk.punchline} />
+//   ));
 
-function App() {
-  return (
-    <React.Fragment>
-      <JokesElment jokesData={jokesData} />
-    </React.Fragment>
-  );
-}
+// function App() {
+//   return (
+//     <React.Fragment>
+//       <JokesElment jokesData={jokesData} />
+//     </React.Fragment>
+//   );
+// }
 
 export default App;
